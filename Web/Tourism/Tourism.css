@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    margin: 0px;
+}
+
+.home-bg-container {
+    background-image: url("https://oboi-download.ru/files/wallpapers/470/14905.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.home-tourism-card {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: "Lobster";
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px;
+}
+
+.home-main-heading {
+    font-size: 45px;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.home-para {
+    font-size: 20px;
+}
+
+.get-started-button {
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: #25b1cc;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.fav-places-bg {
+    background-color: #00bcbf;
+}
+
+.fav-places-heading {
+    color: white;
+    padding: 20px;
+    font-size: 35px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+
+.fav-places-card-cont {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.fav-card-text {
+    margin-right: 10px;
+    font-family: "Bree Serif";
+}
+
+.fav-card-heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fav-card-para {
+    font-size: 15px;
+}
+
+.fav-card-image {
+    height: 120px;
+    width: 100px;
+}
+
+.home-button-cont {
+    padding: 20px;
+    text-align: center;
+}
+
+.home-button {
+    height: 40px;
+    width: 140px;
+    color: Black;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: black;
+}
+
+.detailed-view-bg-container {
+    background-color: #00bcbf;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Bree Serif";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
