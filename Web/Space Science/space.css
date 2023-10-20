@@ -1,0 +1,41 @@
+.body {
+  margin: 0;
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.background {
+  background-color: teal;
+  background-image: url("https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg?w=740&t=st=1697753359~exp=1697753959~hmac=0959775db0ba8e4b488258bea40a3e23c418c85435b9dd2ff0fb3289dac82e5b");
+  background-size: cover;
+  height: 100vh;
+}
+
+.myNavbar {
+  backdrop-filter: blur(5px);
+}
+
+.planets-cont {
+  backdrop-filter: blur(5px);
+  padding: 5%;
+  color: white;
+  text-align: left;
+}
+
+.planets-image {
+  height: auto;
+  width: 30vw;
+  border-radius: 15px;
+}
+
+.planets-text-cont {
+  font-weight: 500;
+  padding-left: 8%;
+}
+
+.heading1 {
+  font-size: 30px;
+}
