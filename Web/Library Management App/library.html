@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management</title>
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__content">
+          <h1 class="header__title">Library Management</h1>
+          <input
+            type="text"
+            placeholder="Type book title"
+            class="header__input"
+            id="searchInput"
+          />
+        </div>
+      </header>
+      <main class="main">
+        <div class="loader loader__hidden" id="loader"></div>
+        <div class="container" id="searchResults"></div>
+      </main>
+    </div>
+    <script src="library.js"></script>
+  </body>
+</html>
