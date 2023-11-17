@@ -5,7 +5,6 @@
 # Calculate the bill amount with the appropriate discount and print it.
 
 def calculate_bill(amount):
-    # Complete this function
     discount = 0
     if amount < 500:
         discount = (5 * amount)/100
