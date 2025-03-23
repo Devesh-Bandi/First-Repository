@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+  /* Very pale blue */
+  text-align: center;
+}
+
+/* Style for the count heading */
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Instruction text */
+.instruction {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Bootstrap primary button */
+.button {
+  background-color: #007bff;
+  /* Bootstrap primary blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #0056b3;
+}
