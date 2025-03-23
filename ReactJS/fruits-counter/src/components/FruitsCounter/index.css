@@ -1,0 +1,122 @@
+body {
+  background-color: #FFC107;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: white;
+  border: 5px solid #FFC107;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+/* New container for fruit sections */
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack on top for XS and SM */
+  gap: 20px;
+}
+
+.fruit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+/* For medium screens and above, display fruit sections side by side */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  .fruit-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
