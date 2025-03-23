@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  width: 90%;
+  max-width: 500px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/speedometer-img.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.speed-display {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.instruction {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+.button:first-of-type {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.button:last-of-type {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    font-style: italic;
+  }
+
+  .speed-display {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .heading {
+    font-size: 3rem;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .heading {
+    font-size: 3.5rem;
+    font-style: italic;
+  }
+}
