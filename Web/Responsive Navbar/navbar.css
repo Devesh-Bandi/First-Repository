@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+.bb {
+  display: none;
+}
+
+.bgCont {
+  height: 100vh;
+}
+
+.navCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #594d6d;
+  font-family: "Open Sans";
+  padding: 12px;
+  padding-left: 20px;
+  border-top: 1px solid #e7e5ea;
+  display: block;
+}
+
+.eachnav {
+  border-bottom: 1px solid #e7e5ea;
+  font-weight: 100;
+}
+
+.button {
+  background-color: #ffdda9;
+  width: 100px;
+  color: #12022f;
+  padding: 12px;
+  border-radius: 20px;
+  border-style: none;
+  font-weight: bold;
+  font-family: "Open Sans";
+
+}
+
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: white;
+}
+
+@media screen and (min-width: 767px) {
+  .bg {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png');
+  }
+}

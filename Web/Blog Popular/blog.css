@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+
+.bgCont {
+  background-color: #95b2ff;
+  padding: 10px;
+}
+
+.box {
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.itemBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.knowMoreBtn {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.itemHeading {
+  color: white;
+}
+
+.item {
+  background-size: cover;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  height: 500px;
+  width: 100vw;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item1 {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png');
+  order: 1;
+}
+
+.item2 {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png');
+  order: 2;
+}
+
+.item3 {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png');
+  order: 3;
+}
+
+.item4 {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png');
+  order: 4;
+}
+
+.item5 {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png');
+  order: 5;
+}
+
+.item6 {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png');
+  order: 6;
+}
+
+@media screen and (min-width: 767px) {
+  .item {
+    height: 300px;
+  }
+
+  .item1 {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png');
+  }
+
+  .item2 {
+    width: 50vw;
+  }
+
+  .item3 {
+    width: 50vw;
+  }
+
+  .item4 {
+    background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png');
+  }
+
+  .item5 {
+    width: 50vw;
+  }
+
+  .item6 {
+    width: 50vw;
+  }
+
+}
+
+@media screen and (min-width: 1199px) {
+  .item {
+    height: 300px;
+  }
+
+  .item1 {
+    width: 50vw;
+  }
+
+  .item2 {
+    width: 25vw;
+  }
+
+  .item3 {
+    width: 25vw;
+  }
+
+  .item4 {
+    width: 50vw;
+    order: 6;
+  }
+
+  .item5 {
+    width: 25vw;
+    order: 4;
+  }
+
+  .item6 {
+    width: 25vw;
+    order: 5;
+  }
+
+}

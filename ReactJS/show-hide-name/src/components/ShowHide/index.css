@@ -1,0 +1,88 @@
+.app-container {
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.first-name-container,
+.last-name-container {
+  background-color: #fddddb;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.button {
+  background-color: #dd1264;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.button:hover {
+  background-color: #fc63a7;
+}
+
+.first-name,
+.last-name {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.first-name p,
+.last-name p {
+  margin: 0;
+  color: #dd1264;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Extra Small and Small screens (stacked vertically) */
+@media (max-width: 767px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .first-name-container,
+  .last-name-container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+/* Medium, Large, and Extra Large screens (side by side) */
+@media (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .first-name-container,
+  .last-name-container {
+    width: 45%;
+    max-width: 300px;
+    margin: 10px;
+  }
+}
