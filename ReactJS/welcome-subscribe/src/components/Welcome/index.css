@@ -1,0 +1,128 @@
+/* index.css */
+
+.container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Bree Serif";
+}
+
+.heading {
+  color: #f0bb03;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.indication {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #4b5e83;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.button:hover {
+  background-color: #5a71a3;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+/* Extra Small (Size < 576px) */
+@media (max-width: 575.98px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  .indication {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 14px;
+    min-width: 100px;
+  }
+}
+
+/* Small (Size >= 576px) */
+@media (min-width: 576px) {
+  .heading {
+    font-size: 28px;
+  }
+
+  .indication {
+    font-size: 16px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+/* Medium (Size >= 768px) */
+@media (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+
+  .indication {
+    font-size: 18px;
+  }
+
+  .button {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+/* Large (Size >= 992px) */
+@media (min-width: 992px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .indication {
+    font-size: 20px;
+  }
+
+  .button {
+    padding: 14px 28px;
+    font-size: 20px;
+  }
+}
+
+/* Extra Large (Size >= 1200px) */
+@media (min-width: 1200px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .indication {
+    font-size: 22px;
+  }
+
+  .button {
+    padding: 16px 32px;
+    font-size: 22px;
+  }
+}
