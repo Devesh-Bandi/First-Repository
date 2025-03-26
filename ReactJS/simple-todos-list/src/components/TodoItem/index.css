@@ -1,0 +1,49 @@
+/*src/components/TodoItem/index.css*/
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.title {
+  color: #000000;
+  margin: 0;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  color: #ff0b37;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-button:hover {
+  background-color: #ff0b371a;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 576px) {
+  .todo-item {
+    padding: 8px 0;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .delete-button {
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+}

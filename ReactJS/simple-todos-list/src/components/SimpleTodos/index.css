@@ -1,0 +1,46 @@
+/* src/components/SimpleTodos/index.css */
+.container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.todos-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.heading {
+  color: #ff8542;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+
+  .todos-container {
+    padding: 15px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+}

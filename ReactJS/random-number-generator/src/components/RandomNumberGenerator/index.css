@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generator-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 90%;
+  max-width: 400px;
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.instruction {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 24px;
+}
+
+.randomized-number {
+  color: #0b69ff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .generator-card {
+    padding: 24px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .randomized-number {
+    font-size: 36px;
+  }
+}
